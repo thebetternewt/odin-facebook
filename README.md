@@ -1,24 +1,12 @@
-# README
+# Odin Facebook Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was built as the final project for [The Odin Project's](http://theodinproject.com) Ruby on Rails course in which a mock Facebook application is built. Details can be found [here](http://www.theodinproject.com/ruby-on-rails/final-project).
 
-Things you may want to cover:
+## What I Learned
 
-* Ruby version
+This project shows my understanding of:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Use the Devise gem for handling user sessions, login/logout, etc.
+* Building a very functional Rails application from the ground up.
+* Using the letter_opener gem for testing emails.
+* Using rspec for testing.
