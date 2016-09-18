@@ -11,5 +11,13 @@
         You don't have a bio yet.
       </p>
     <% end %>
+    <% if @user.posts.any? %>
+      <h4>Posts: (<%= @user.posts.count %>)</h4>
+      <ul class="posts">
+        <% @user.posts.each do |post| %>
+        <li><%= post.content %></li>
+        <% end %>
+      </ul>
+    <% end %>
   </div>
 </div>
