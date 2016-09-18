@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-md-8">
+    <h1><%= @user.name %></h1>
+    <h4>Bio:</h4>
+    <% if @user.bio %>
+      <p>
+        <%= @user.bio %>
+      </p>
+    <% else %>
+      <p>
+        You don't have a bio yet.
+      </p>
+    <% end %>
+  </div>
+</div>
