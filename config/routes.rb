@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/about', to: 'static_pages#about'
 
   resources :users, only: [ :show ]
+  resources :posts, only: [ :create, :destroy ]
 end
